@@ -147,7 +147,7 @@ DCTW - Unofficial Browser Extension is a browser extension designed for DCTW (Ta
 
 1. Download or clone this repository
    ```bash
-   git clone https://github.com/AvianJay/DCTW---Unofficial-Browser-Extension.git
+   git clone https://github.com/creeperdevme/DCTW---Unofficial-Browser-Extension.git
    ```
 
 2. Open your browser's extension management page
