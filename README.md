@@ -1,5 +1,4 @@
 # DCTW - Unofficial Browser Extension
-
 > 一個非官方的 DCTW 瀏覽器擴充功能，方便瀏覽台灣 Discord 社群的機器人、伺服器和模板。
 >
 > An unofficial browser extension for browsing DCTW (Taiwan Discord Community) bots, servers, and templates.
@@ -70,6 +69,13 @@ DCTW - Unofficial Browser Extension 是一個為 DCTW（台灣 Discord 社群）
 - **Markdown 渲染**: [marked.js](https://github.com/markedjs/marked)
 - **圖標**: Font Awesome 6.4.0
 - **API 提供**: [NyankoHost](https://nyanko.host)
+
+### 🖼️ 使用截圖
+
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/02772448-2775-4d65-ae2f-1d2a31aa528f" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/8ff455c0-bef1-4cf4-8ea6-ab4e8c6106e3" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/8fc32fdc-091a-41c5-b101-32679e0bcd60" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/efbcc5c7-6f2a-40e5-ab1d-7209f8eddfe1" />
 
 ### 📂 專案結構
 
