@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCTW 擴充功能</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo-section">
+                <img src="icon.png" alt="DCTW Logo" class="logo">
+                <h1>DCTW</h1>
+            </div>
+            <button id="options-btn" class="icon-btn" title="資訊"><i class="fas fa-info-circle"></i></button>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="bots">機器人</button>
+            <button class="tab-btn" data-tab="servers">伺服器</button>
+            <button class="tab-btn" data-tab="templates">模板</button>
+        </nav>
+
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="搜尋...">
+        </div>
+
+        <main id="content-container">
+            <div id="loading" class="state-view">
+                <div class="spinner"></div>
+                <p>載入中...</p>
+            </div>
+
+            <div id="error" class="state-view hidden">
+                <i class="fas fa-exclamation-circle error-icon"></i>
+                <p id="error-message">載入資料失敗</p>
+                <button id="retry-btn" class="primary-btn">重試</button>
+            </div>
+
+            <div id="empty" class="state-view hidden">
+                <i class="fas fa-ghost empty-icon"></i>
+                <p>找不到任何項目</p>
+            </div>
+
+            <div id="info-view" class="info-layout hidden">
+                <img src="info-logo.png" alt="Info Logo" class="info-logo" id="info-logo-img">
+
+                <div id="debug-auth-container" class="hidden" style="margin-bottom: 10px;">
+                    <input type="password" id="debug-password" placeholder="輸入密碼..."
+                        style="padding: 4px; border-radius: 4px; border: 1px solid #444; background: #222; color: white;">
+                </div>
+
+                <h2 style="font-size: 18px; color: var(--text-color); margin-bottom: 16px;">關於本擴充功能</h2>
+                <p style="margin-bottom: 8px;">這是一個非官方的 DCTW 瀏覽器擴充功能。</p>
+
+                <h3 style="font-size: 16px; color: var(--text-color); margin-top: 24px; margin-bottom: 8px;">感謝名單</h3>
+                <p style="margin-bottom: 8px; font-size: 13px; line-height: 1.5;">感謝 <strong>雲端貓居
+                        NyankoHost</strong><br>提供 API 讓此擴充功能進行獲取資料</p>
+                <a href="https://nyanko.host" target="_blank"
+                    style="color: #00A8FC; text-decoration: none; font-size: 13px;">前往 NyankoHost <i
+                        class="fas fa-external-link-alt" style="font-size: 10px;"></i></a>
+
+                <div style="margin-top:24px; font-size: 12px; color: #949BA4;">版本 1.0.0</div>
+            </div>
+
+            <div id="detail-view" class="hidden">
+                <!-- Content injected by JS -->
+            </div>
+
+            <div id="list-view" class="list-view hidden">
+                <!-- Cards will be injected here -->
+            </div>
+        </main>
+
+        <footer>
+            <p style="margin-bottom: 2px;">DCTW - Unofficial Browser Extension</p>
+            <p style="margin-top: 0;">It is not endorsed by or affiliated with 台酷拉 x Taicoolah or DCTW in any way.</p>
+        </footer>
+    </div>
+    <script src="marked.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
