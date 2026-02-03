@@ -1,6 +1,6 @@
 # DCTW - Unofficial Browser Extension
 
-<img width="415" height="551" alt="image" src="https://github.com/user-attachments/assets/6111a5f5-07da-401c-a8f6-cc97faf56cfe" />
-<img width="420" height="549" alt="image" src="https://github.com/user-attachments/assets/b0b73978-8aa0-4cda-95f2-ea4b544eecf8" />
-<img width="401" height="541" alt="image" src="https://github.com/user-attachments/assets/50d04af0-6e3f-486b-95d4-90c19c3a4853" />
-<img width="406" height="557" alt="image" src="https://github.com/user-attachments/assets/3b3b9e9e-ef98-477f-9ce3-a06d4348e8f5" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/02772448-2775-4d65-ae2f-1d2a31aa528f" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/8ff455c0-bef1-4cf4-8ea6-ab4e8c6106e3" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/8fc32fdc-091a-41c5-b101-32679e0bcd60" />
+<img width="365" height="504" alt="image" src="https://github.com/user-attachments/assets/efbcc5c7-6f2a-40e5-ab1d-7209f8eddfe1" />
