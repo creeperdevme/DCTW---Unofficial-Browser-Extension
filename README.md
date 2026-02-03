@@ -37,7 +37,7 @@ DCTW - Unofficial Browser Extension 是一個為 DCTW（台灣 Discord 社群）
 
 1. 下載或克隆此儲存庫
    ```bash
-   git clone https://github.com/AvianJay/DCTW---Unofficial-Browser-Extension.git
+   git clone https://github.com/creeperdevme/DCTW---Unofficial-Browser-Extension.git
    ```
 
 2. 開啟瀏覽器的擴充功能管理頁面
